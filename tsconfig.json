@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "noImplicitAny": true,
+        "allowJs": true,
+        "noImplicitReturns": true,
+        "outDir": "./built",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "lib": ["ES2022", "dom", "dom.iterable"]
+    },
+    "include": ["src/"],
+    "ts-node": {
+        "esm": true
+    }
+}
