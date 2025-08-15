@@ -1,7 +1,18 @@
-# goods-monitoring
+# 📦 Goods Monitoring Bot
 
 A **powerful Telegram bot** built with **TypeScript** that keeps track of goods, prices, and availability in real time.  
 It automatically parses data from your chosen sources, stores it in **PostgreSQL**, and alerts you when better deals are found — including the ability to search for cheaper prices **by category** (e.g., books, tools, electronics).
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a8fe6edf-7a46-4316-8b1b-1a391fc1917c" alt="Bot Screenshot 1" width="40%"/>
+  <img src="https://github.com/user-attachments/assets/7292ad94-f7c6-4399-b62c-f2ebee82fd46" alt="Bot Screenshot 2" width="34%"/>
+</div>
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/9363576b-1d01-4f05-bc4b-98f5c35746a2" width="80%" autoplay loop muted playsinline />
+</div>
+
+
 
 ---
 
@@ -21,7 +32,6 @@ It automatically parses data from your chosen sources, stores it in **PostgreSQL
 ## 📋 Example Use Cases
 
 - Track the price of a single product and get notified on price drops.
-- Monitor entire categories (e.g., all "Books") and instantly see which item is the cheapest today.
 - Compare prices across multiple vendors.
 - Maintain a historical record of how product prices change over time.
 
@@ -41,3 +51,4 @@ It automatically parses data from your chosen sources, stores it in **PostgreSQL
    ```bash
    git clone https://github.com/KatsayArtemDev/goods-monitoring.git
    cd goods-monitoring
+
